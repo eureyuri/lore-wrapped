@@ -1,4 +1,7 @@
 :root {
+  --font-display: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  --font-sans: "Arial Black", Arial, Helvetica, sans-serif;
+  --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
   --ink: #111114;
   --paper: #f5f0e7;
   --white: #fffdf7;

@@ -149,7 +149,7 @@ function parseResponse(response: unknown, messages: ChatMessage[]): LoreResult {
 
 export function isRateLimitError(error: unknown) {
   return (
-    Boolean(error) &&
+    error !== null &&
     typeof error === "object" &&
     "status" in error &&
     error.status === 429
